@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
-    --color-body: #6b3901;
-    --color-heading: #4a2901;
-    --color-base: #f0e2ca;
-    --color-base2: #dbccba;
-    --color-brand: #695d53;
-    --color-brand2: #846656;
+    --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #084298;
+    --color-base2: #111111;
+    --color-brand: #42a5f5;
+    --color-brand2: #deff58;
     --sidbar-width: 240px;
     --font-base: "Poppins";
 }
@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-    text-decoration: dnone;
+    text-decoration: none;
     color: var(--color-body);
     transition: all 0.4s ease;
 }
@@ -97,7 +97,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgb(253, 149, 13), rgba(152, 92, 3, 0.8)), url(../images/sidebar-img.jpg);
+        background: linear-gradient(rgba(13 110 253), rgba(3, 63, 71, 0.8)), url(../images/sidebar-img.jpg);
         background-size: cover;
         background-position: center;
     }
